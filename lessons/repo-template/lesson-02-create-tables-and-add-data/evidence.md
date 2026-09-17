@@ -6,23 +6,29 @@
 - Optional Commit 3 hash + message:
 
 ## Run evidence
-- Command run:
-- Terminal output pasted below:
+- Command run: python lesson2_create_table.py
+- Terminal output pasted below: no output in terminal look in db
 
 ## SQL/Python changes I made
-- 
+- Added starter code from lesson
 
 ## Error and fix
-- Error I hit:
-- How I fixed it:
+- Error I hit: sqlite3.OperationalError: 2 values for 3 columns
+- How I fixed it: Made sure to add another placeholder with 3 question marks ? instead of two
 
 ## Understanding check (answer in your own words)
 1. Why do we use `commit()`?
+To ensure the changes we made are saved and kept 
+
 2. What does `PRIMARY KEY` mean?
+An indivdual unique key that keeps track of record in a table
+
 3. Why is `IF NOT EXISTS` useful when creating tables?
 
+To ensure no duplicate tables are made
+
 ## Quality checklist
-- [ ] Script runs without unhandled errors
-- [ ] I included at least 2 lesson commits
-- [ ] I showed inserts and saved changes
-- [ ] I answered all questions in my own words
+- [ YEs] Script runs without unhandled errors
+- [ yES] I included at least 2 lesson commits
+- [ yes] I showed inserts and saved changes
+- [ ]yes I answered all questions in my own words
