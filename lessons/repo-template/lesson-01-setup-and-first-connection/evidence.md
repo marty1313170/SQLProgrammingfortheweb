@@ -22,7 +22,7 @@
 3. What does the connection do?
 
 ## Quality checklist
-- [ ] Script runs without unhandled errors
-- [ ] I included at least 2 lesson commits
-- [ ] I included terminal evidence
-- [ ] I answered all questions in my own words
+- [ Yes] Script runs without unhandled errors
+- [ Yes] I included at least 2 lesson commits
+- [ Yes] I included terminal evidence
+- [ Yes] I answered all questions in my own words
