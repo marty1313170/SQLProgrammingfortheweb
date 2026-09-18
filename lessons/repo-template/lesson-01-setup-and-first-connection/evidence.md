@@ -18,8 +18,11 @@
 
 ## Understanding check (answer in your own words)
 1. What is the difference between Python and SQLite?
+Python is a programming langugae, while SQLite is a type of database that can be used with python
 2. What file was created when the script ran?
+my .db file name schoo.db
 3. What does the connection do?
+It opens a connection to the database to allow changes and saved
 
 ## Quality checklist
 - [ Yes] Script runs without unhandled errors

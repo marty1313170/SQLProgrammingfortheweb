@@ -4,13 +4,14 @@ connection = sqlite3.connect("school.db")
 
 cursor = connection.cursor()
 
-cursor.execute("SELECT id, name, year_group FROM students")
+cursor.execute("SELECT name FROM students")
 
 rows = cursor.fetchall()
 
 
+
 for row in rows:
-    print(row)
+    print(f"The students name is {row[0]}")
 
 
 connection.close()
