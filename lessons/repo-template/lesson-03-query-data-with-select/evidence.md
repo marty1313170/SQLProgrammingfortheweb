@@ -58,9 +58,9 @@ All the data in the database
 It only outputted the name or year_group by its self
 
 ## Quality checklist
-- [ ] Script runs without unhandled errors
-- [ ] I included at least 2 lesson commits
-- [ ] I included query output evidence
-- [ ] I showed a prediction and compared it to actual output
-- [ ] I made at least 2 personal changes to the starter work
-- [ ] I answered all questions in my own words
+- [ Yes ] Script runs without unhandled errors
+- [ Yes ] I included at least 2 lesson commits
+- [  Yes] I included query output evidence
+- [ Yes] I showed a prediction and compared it to actual output
+- [ Yes] I made at least 2 personal changes to the starter work
+- [Yes ] I answered all questions in my own words
