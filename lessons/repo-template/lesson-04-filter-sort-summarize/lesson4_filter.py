@@ -13,6 +13,8 @@ cursor.execute(
     (year_group,)
 )
 
+
+
 rows = cursor.fetchall()
 for row in rows:
     print(row)
