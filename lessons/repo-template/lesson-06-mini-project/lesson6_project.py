@@ -1,4 +1,5 @@
 import sqlite3
+import sys
 
 connection = sqlite3.connect("school.db")
 
@@ -15,6 +16,15 @@ units_sold INTEGER NOT NULL
 """)
 
 cursor.execute("DELETE FROM books")
+
+# Menu
+option = input("Press 1 to add an book, Press 2 to show all books, Press 3 exit")
+
+
+
+
+
+
 
 cursor.execute("INSERT INTO books (title, author, year_released, units_sold) VALUES (?, ?, ?, ?)", (
     "Holes", "Louis Sachar", 1988, 12000000
@@ -41,10 +51,25 @@ cursor.execute("INSERT INTO books (title, author, year_released, units_sold) VAL
     "Crime and punishment", "Fyodor Dostoevsky", 1866 , 30000000
 ))
 
-cursor.execute("SELECT title, author FROM books ORDER BY title")
 
-for title, author in cursor.fetchall():
-    print(f"{title} by {author}")
+
+
+if option == "1":
+    a = input("Input a book name")
+    b = input("Who wrote this book")
+    c = input("What year was this book released")
+    d = input("How much copies are sold")
+
+    cursor.execute("INSERT INTO books (title, author, year_released, units_sold) VALUES (?, ?, ?, ?)", (
+    a, b, c , d
+    ))
+elif option == "2":
+    cursor.execute("SELECT title, author FROM books ORDER BY title")
+    for title, author in cursor.fetchall():
+        print(f"{title} by {author}")
+elif option == "3":
+    sys.exit()
+
 
 connection.commit()
 connection.close()
