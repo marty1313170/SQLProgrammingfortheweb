@@ -6,15 +6,23 @@
 - Optional Commit 3 hash + message:
 
 ## Run evidence
-- Command run:
+- Command run: python3 lesson6_project.py
 - Terminal output pasted below:
+1984 by George Orwell
+Crime and punishment by Fyodor Dostoevsky
+Holes by Louis Sachar
+The Hobbit by J. R. R. Tolkien
+War and peace by Leo Tolstoy
+Wonder by R. J. Palacio
+
 
 ## SQL/Python changes I made
-- 
+- I added thr
 
 ## Error and fix
-- Error I hit:
+- Error I hit: sqlite3.OperationalError: table books has no column named authors
 - How I fixed it:
+This error was caused by a typo and I changed authors to author 
 
 ## Understanding check (answer in your own words)
 1. Which skills from earlier lessons were reused here?
