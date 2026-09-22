@@ -30,21 +30,28 @@ It outputted the accurate information with brackets
 - Change 1: I added a scaling rank to courses
 - Change 2: I added an option to input a new course in
 - Why these changes were mine (not just starter code):
-These changes were mine becasue 
+These changes were mine because the new customization to offer users a new course and not just the preloaded ones.
 
 ## Error and fix
-- Error I hit:
+- Error I hit: 
+sqlite3.ProgrammingError: Error binding parameter 1: type 'set' is not supported
 - How I fixed it:
+Removing the square brackets from {} from the variables to prevent a crash
 
 ## Understanding check (answer in your own words)
 1. Why do we use more than one table?
-2. What is the purpose of `JOIN`?
+Because information is relational and storing information on one table would cause confusion and mix irrelevant data together
+
+2. What is the purpose of `JOIN`?   
+It combines data from two different tables
+
 3. Which columns connect your two tables?
+The two columns that display and connect the tabel is the Name and Club column
 
 ## Quality checklist
-- [ ] Script runs without unhandled errors
-- [ ] I included at least 2 lesson commits
-- [ ] I included joined output evidence
-- [ ] I showed a prediction and compared it to actual output
-- [ ] I made at least 2 personal changes to the starter work
-- [ ] I answered all questions in my own words
+- [ Yes ] Script runs without unhandled errors
+- [ Yes ] I included at least 2 lesson commits
+- [ Yes ] I included joined output evidence
+- [ Yes ] I showed a prediction and compared it to actual output
+- [ Yes ] I made at least 2 personal changes to the starter work
+- [ Yes ] I answered all questions in my own words
