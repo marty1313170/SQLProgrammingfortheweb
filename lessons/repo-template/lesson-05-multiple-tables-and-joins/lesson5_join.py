@@ -50,7 +50,7 @@ cursor.execute(
 
 cursor.execute(
     f"INSERT INTO courses (course_name, student_id, scaling_ranking) VALUES (?, ?, ?)",
-    ({c}, {a}, {b})
+    (c, a, b)
 )
 
 cursor.execute(

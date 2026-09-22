@@ -28,8 +28,9 @@ It outputted the accurate information with brackets
 
 ## SQL/Python changes I made
 - Change 1: I added a scaling rank to courses
-- Change 2: 
+- Change 2: I added an option to input a new course in
 - Why these changes were mine (not just starter code):
+These changes were mine becasue 
 
 ## Error and fix
 - Error I hit:
