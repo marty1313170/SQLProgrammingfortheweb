@@ -1,8 +1,8 @@
 # Lesson 04 Evidence Pro-Forma
 
 ## Commit evidence (minimum 2)
-- Commit 1 hash + message:
-- Commit 2 hash + message:
+- Commit 1 hash + message: 7d8aa7e119761511e70aff3abcf663233e0d1f0c
+- Commit 2 hash + message: 9c6ebbb39c730c5229fd4902fc06daf0f2d27b1f
 - Optional Commit 3 hash + message:
 
 ## Run evidence
